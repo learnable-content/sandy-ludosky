@@ -1,0 +1,118 @@
+
+/* RESET-GENERAL STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+  background: #333333;
+  color: white;
+ 
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.p {
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+  font-size: .9em;
+}
+
+.p a {
+  color: white;
+  text-decoration: underline;
+}
+/* MENU STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.no-padding {
+  padding: 0;
+
+}
+h2 a {
+  display: block;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background: #fff0a0;
+  
+}
+
+.row {
+  min-height: 80px;
+  margin: 0;
+}
+
+.col-xs-2 {
+  padding: 0;
+ 
+}
+
+ul a {
+  display: block;
+  padding: 15px 10px;
+  border-right: solid 1px #444;
+  text-transform: uppercase;
+  background: #fff0a0;
+  transition: background .3s ease;
+}
+
+ul a:before {
+  font-family: FontAwesome;
+  padding-right: 5px;
+  font-size: 22px;
+  display: inline-block;
+}
+
+
+ul a:hover {
+  background: white;
+}
+/* SECOND LINE STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h2 {
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+h2 a {
+  padding: 10px;
+  transition: all .3s ease;
+}
+
+h2 a:hover {
+  background: #FEB41C;
+  color: black;
+}
+/* MQ STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 800px) {
+  ul a {
+    font-size: 0;
+  }
+  ul a:before {
+    padding: 0 5px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  ul a:before {
+    font-size: 22px;
+  }
+}
