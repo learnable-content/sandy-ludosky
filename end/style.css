@@ -1,0 +1,14 @@
+body {
+
+	padding-top: 200px;
+}
+.rider {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  transition: transform 3s 0s cubic-bezier(.66,0,0,1.16);
+}
+
+.rider:hover {
+	transform: translateX(1700px);
+}
