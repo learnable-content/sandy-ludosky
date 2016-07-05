@@ -1,0 +1,73 @@
+section, h1 {
+ margin: 2rem 4rem; 
+}
+.square {
+  width: 150px;
+  height: 150px; 
+  position: relative;
+  -moz-transition: all 5s;
+  -webkit-transition: all 5s; 
+  -o-transition: all 5s; 
+  -ms-transition: all 5s;
+  transition: all 5s;
+}
+
+/* 
+- http://css-snippets.com/browser-prefix/
+- http://caniuse.com/ 
+*/
+
+/* number #1 */
+#one .square {
+  background-color: crimson;
+}
+
+
+#one .square:hover { 
+  background-color: DarkMagenta;
+}
+  
+
+/* number #2 */
+#two .square {
+  background: Gold;   
+}
+#two .square div { 
+   background: Salmon;  
+   position: absolute;
+   left: 25%;
+   top: 25%;
+   width: 75px;
+   height: 75px;
+  -moz-transition: all 5s;
+  -webkit-transition: all 5s; 
+  -o-transition: all 5s;
+  -ms-transition: all 5s;
+   transition: all 5s;
+}
+
+#two .square div:hover {
+   background-color:Gold;
+  -moz-transform: scale(2,2);
+  -webkit-transform: scale(2,2); 
+  -o-transform: scale(2,2);
+  -ms-transform: scale(2,2);
+   transform: scale(2,2);
+}
+
+/* number #3 */
+#three .square {
+  background-color: RoyalBlue;
+}
+
+#three .square:hover {
+   background-color: Crimson;
+  -moz-transform: rotate(360deg);
+  -webkit-transform:  rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+   transform: rotate(360deg);
+}
+
+
+
