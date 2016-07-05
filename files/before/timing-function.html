@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Timing-function Options</title>
+        <meta name="description" content="This is a demonstration about CSS 2D transition">
+       
+       <style type="text/css">
+
+       .container {
+       	width: 80%;
+       	margin: 0 auto;
+       }
+
+       ul {
+       	margin: 80px 0 0 0;
+       }
+
+       	li {
+       		list-style-type: none;
+       		padding: 10px;
+       		border-radius: 10px;
+       		background: #34495e;
+       		color: #ecf0f1;
+       		border: 2px solid #e67e22;
+       		width: 7rem;
+       		margin: 50px 0;
+       	}
+
+
+       	#ease {
+       	  transition: transform 3s;
+       	}     
+
+       	#linear {
+       	  transition: transform 3s linear;
+       	}      
+
+       	#easeIn {
+       	  transition: transform 3s ease-in;
+       	}
+
+       	#easeOut {
+       	  transition: transform 3s ease-out;
+       	}
+
+       
+       	#easeInOut {
+       	  transition: transform 3s ease-in-out;
+       	}
+
+       	li:hover {
+       		transform: translateX(900px);
+       	}
+       	
+
+       </style>
+
+
+    </head>
+ <body>
+
+<div class="container">
+
+	<h1>Timing-function Options</h1><hr>
+
+	<ul>
+	  <li id='ease'>ease</li>
+	  <li id='linear'>linear</li>
+	  <li id='easeIn'>ease-in</li>
+	  <li id='easeOut'>ease-out</li>
+	  <li id='easeInOut'>ease-in-out</li>
+
+	</ul>
+
+</div>
+
+    </body>
+</html>
