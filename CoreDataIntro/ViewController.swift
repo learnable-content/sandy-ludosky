@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  SavingToCoreData
+//  CoreDataIntro
 //
 //  Created by Sandy L on 2016-05-23.
 //  Copyright © 2016 Sandy. All rights reserved.
@@ -13,29 +13,30 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
         
         
-        //managedObjectContext
+        //manageObjectContext
         let appDel:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let context:NSManagedObjectContext = appDel.managedObjectContext
         
+        //new record
+        let newUser = NSEntityDescription.insertNewObjectForEntityForName("User", inManagedObjectContext: context)
         
-        //new contact
-        let newContact = NSEntityDescription.insertNewObjectForEntityForName("Contact", inManagedObjectContext: context)
+        newUser.setValue("Sandy", forKey: "name")
+        newUser.setValue(25, forKey: "age")
         
-        newContact.setValue("Sandy", forKey: "username")
-        newContact.setValue("sandy@gmail.com", forKey: "email")
-        newContact.setValue(25, forKey: "age")
         
-        //saving to Core Data
+        //saving Core Data
         do {
             try context.save()
-            print("new contact \(newContact) successfully saved to the core data")
+            print("record successfully saved to core data")
         } catch {
+            
             print("error saving to the core data")
+        
         }
-        
-        
+     
     }
 
     override func didReceiveMemoryWarning() {
