@@ -1,1 +1,1 @@
-# sandy-ludosky
+# Getting Started with Core Data
