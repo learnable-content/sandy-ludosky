@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "300C2B501CF34FB400560FF9"
-               BuildableName = "CoreDataIntro.app"
-               BlueprintName = "CoreDataIntro"
-               ReferencedContainer = "container:CoreDataIntro.xcodeproj">
+               BlueprintIdentifier = "300C2B711CF3594200560FF9"
+               BuildableName = "SavingToCoreData.app"
+               BlueprintName = "SavingToCoreData"
+               ReferencedContainer = "container:SavingToCoreData.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "300C2B501CF34FB400560FF9"
-            BuildableName = "CoreDataIntro.app"
-            BlueprintName = "CoreDataIntro"
-            ReferencedContainer = "container:CoreDataIntro.xcodeproj">
+            BlueprintIdentifier = "300C2B711CF3594200560FF9"
+            BuildableName = "SavingToCoreData.app"
+            BlueprintName = "SavingToCoreData"
+            ReferencedContainer = "container:SavingToCoreData.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "300C2B501CF34FB400560FF9"
-            BuildableName = "CoreDataIntro.app"
-            BlueprintName = "CoreDataIntro"
-            ReferencedContainer = "container:CoreDataIntro.xcodeproj">
+            BlueprintIdentifier = "300C2B711CF3594200560FF9"
+            BuildableName = "SavingToCoreData.app"
+            BlueprintName = "SavingToCoreData"
+            ReferencedContainer = "container:SavingToCoreData.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "300C2B501CF34FB400560FF9"
-            BuildableName = "CoreDataIntro.app"
-            BlueprintName = "CoreDataIntro"
-            ReferencedContainer = "container:CoreDataIntro.xcodeproj">
+            BlueprintIdentifier = "300C2B711CF3594200560FF9"
+            BuildableName = "SavingToCoreData.app"
+            BlueprintName = "SavingToCoreData"
+            ReferencedContainer = "container:SavingToCoreData.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
